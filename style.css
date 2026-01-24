@@ -56,6 +56,51 @@ a {
   margin-bottom: 32px;
 }
 
+/* ===== Hero 奶茶風 + 店名放大 ===== */
+.hero-miru {
+  background: #fff7f0;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero-miru h1 {
+  font-size: 52px;
+  letter-spacing: 6px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.hero-miru .subname {
+  display: block;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  font-weight: 300;
+  color: #7a6a5b;
+}
+
+.hero-miru .subtitle {
+  font-size: 14px;
+  color: #7a6a5b;
+  margin: 28px 0 12px;
+}
+
+.hero-miru .subtitle2 {
+  font-size: 14px;
+  color: #7a6a5b;
+  margin-bottom: 34px;
+}
+
+.hero-miru .line-btn {
+  background: #b89b7c;
+  color: #fff;
+  padding: 14px 44px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 14px;
+  border: none;
+}
+
 /* 主行動按鈕（LINE 預約） */
 .line-btn {
   background: #1f1f1f;
