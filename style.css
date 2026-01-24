@@ -1,46 +1,120 @@
+/* ===== 全站基礎設定（A 日系極簡） ===== */
 body {
   margin: 0;
   font-family: "Noto Sans TC", sans-serif;
-  background: #f8f3ed;
-  color: #4a3f35;
+  background: #fbfbfb;
+  color: #2b2b2b;
+  line-height: 2;
 }
 
+a {
+  color: inherit;
+}
+
+/* ===== 首頁 Hero（B 韓系高級） ===== */
 .hero {
-  background: #fffaf5;
   text-align: center;
-  padding: 100px 20px;
+  padding: 110px 20px;
+  background: #ffffff;
 }
 
 .hero h1 {
-  font-size: 36px;
+  font-size: 38px;
+  letter-spacing: 5px;
+  font-weight: 400;
 }
 
 .subtitle {
-  color: #8a7a6a;
+  font-size: 14px;
+  color: #7a7a7a;
+  margin: 24px 0 48px;
 }
 
+/* 主行動按鈕（LINE 預約） */
 .line-btn {
-  background: #b89b7c;
-  color: #fff;
-  padding: 14px 40px;
-  border-radius: 30px;
+  background: #1f1f1f;
+  color: #ffffff;
+  padding: 14px 44px;
+  border-radius: 999px;
   text-decoration: none;
+  font-size: 14px;
 }
 
+/* ===== 共用內容區（A） ===== */
 .section {
   max-width: 820px;
-  margin: 70px auto;
+  margin: 80px auto;
   padding: 0 20px;
 }
 
-.notice-list {
-  list-style: none;
-  padding: 0;
+.section h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 32px;
 }
 
-.notice-list li {
-  padding: 12px 0;
-  border-bottom: 1px solid #e5e5e5;
-  color: #5f5f5f;
+/* ===== 服務項目 / 價格 ===== */
+.service-list,
+.price-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-list li,
+.price-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
   font-size: 14px;
 }
+
+/* ===== 預約須知（C 奶茶溫柔） ===== */
+.notice {
+  background: #fffaf5;
+  border-left: 4px solid #b89b7c;
+  padding: 24px;
+  color: #6b5b4b;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.notice h3 {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ===== 服務人員 ===== */
+.staff-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+.staff-card {
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.staff-card h4 {
+  margin: 12px 0 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.staff-card p {
+  font-size: 13px;
+  color: #7a7a7a;
+}
+
+/* ===== 教育中心專區 ===== */
+.edu-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
