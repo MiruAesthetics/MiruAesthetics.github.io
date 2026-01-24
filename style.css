@@ -1,68 +1,52 @@
 body {
   margin: 0;
-  font-family: "Noto Sans TC", "Helvetica Neue", sans-serif;
-  color: #2f2f2f;
-  background: #f6f4f1;
-  line-height: 1.8;
+  font-family: "Noto Sans TC", sans-serif;
+  background: #fbfbfb;
+  color: #2b2b2b;
+  line-height: 2;
 }
 
-/* 首頁主視覺 */
 .hero {
   text-align: center;
-  padding: 90px 20px;
+  padding: 100px 20px;
   background: #ffffff;
 }
 
 .hero h1 {
-  font-size: 38px;
-  letter-spacing: 3px;
-  margin-bottom: 12px;
+  font-size: 34px;
+  letter-spacing: 4px;
+  font-weight: 400;
 }
 
 .subtitle {
-  color: #8a8a8a;
-  margin-bottom: 36px;
-  font-size: 15px;
+  color: #9a9a9a;
+  font-size: 14px;
+  margin: 24px 0 40px;
 }
 
-/* LINE 按鈕（主要） */
 .line-btn {
-  display: inline-block;
-  padding: 14px 40px;
-  border-radius: 40px;
-  border: 1px solid #2f2f2f;
-  color: #2f2f2f;
+  border: 1px solid #2b2b2b;
+  padding: 12px 36px;
+  border-radius: 999px;
   text-decoration: none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
+  color: #2b2b2b;
 }
 
-.line-btn:hover {
-  background: #2f2f2f;
-  color: #ffffff;
-}
-
-/* 內容區塊 */
 .section {
-  max-width: 900px;
-  margin: 70px auto;
-  padding: 0 24px;
+  max-width: 760px;
+  margin: 80px auto;
+  padding: 0 20px;
 }
 
 .section h2 {
-  font-size: 22px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 12px;
-}
-
-/* 服務項目 */
-.service-list {
-  list-style: none;
-  padding: 0;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 32px;
 }
 
 .service-list li {
   display: flex;
-  justif
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
