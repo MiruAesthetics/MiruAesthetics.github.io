@@ -12,6 +12,7 @@ a {
 }
 
 /* ===== Hero 設計師排版（奶茶風 + B + C） ===== */
+/* ===== Hero 設計師排版（奶茶風 + B + C） ===== */
 .hero-design {
   background: #fff7f0;
   padding: 120px 20px;
@@ -23,7 +24,7 @@ a {
 
 .hero-design .hero-top {
   display: flex;
-  justify-content: space-between; /* 店名左、英文右 */
+  justify-content: flex-start; /* 店名靠左 */
   align-items: baseline;
 }
 
@@ -43,18 +44,18 @@ a {
 
 .hero-design .hero-mid {
   margin-top: 40px;
-  text-align: center; /* 副標置中 */
+  text-align: right; /* 副標靠右 */
 }
 
 .hero-design .subtitle {
   font-size: 16px;
-  color: #8a7a68; /* B：淡奶茶色 */
+  color: #8a7a68; /* 淡奶茶色 */
   margin: 0;
 }
 
 .hero-design .subtitle2 {
   font-size: 14px;
-  color: #8a7a68; /* B：淡奶茶色 */
+  color: #8a7a68; /* 淡奶茶色 */
   margin: 12px 0 0;
 }
 
@@ -68,6 +69,7 @@ a {
   border: none;
   display: block;
   margin: 44px auto 0;
+  text-align: center; /* 按鈕文字置中 */
 }
 
 /* 主行動按鈕（LINE 預約） */
