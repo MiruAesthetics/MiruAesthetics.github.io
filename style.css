@@ -56,6 +56,7 @@ a {
   font-size: 20px; /* 你之前想要更大 */
   color: #8a7a68;
   margin: 0;
+  font-weight: 700; /* 加上這行：變粗體 */
 }
 
 .hero-design .subtitle2 {
