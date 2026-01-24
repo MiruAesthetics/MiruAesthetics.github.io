@@ -135,6 +135,34 @@ a {
   font-weight: 500;
 }
 
+.notice-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notice-list li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin: 12px 0;
+}
+
+.notice-list li::before {
+  content: "•"; /* 先用點代替，下面會改成 emoji */
+  font-size: 18px;
+  line-height: 1.2;
+  color: #b89b7c;
+}
+
+.notice-list li.icon-service::before { content: "📌"; }
+.notice-list li.icon-change::before { content: "🔁"; }
+.notice-list li.icon-late::before { content: "⏰"; }
+.notice-list li.icon-skin::before { content: "🧴"; }
+.notice-list li.icon-pay::before { content: "💳"; }
+.notice-list li.icon-people::before { content: "👥"; }
+.notice-list li.icon-line::before { content: "💛"; }
+
 /* ===== 服務人員 ===== */
 .staff-list {
   display: grid;
