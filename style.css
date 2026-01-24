@@ -96,6 +96,23 @@ a {
   margin-top: 24px;             /* 跟服務清單留距離 */
 }
 
+.service-btns a {
+  background: #f2e6d9;     /* 淡奶茶色 */
+  color: #6b5b4b;          /* 深奶茶字色 */
+  border: 1px solid #e0d1c3;
+  font-size: 14px;
+  padding: 12px 28px;
+  border-radius: 999px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-btns a:hover {
+  background: #e9d8c9;
+}
+
 /* ===== 共用內容區（A） ===== */
 .section {
   max-width: 820px;
