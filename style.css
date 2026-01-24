@@ -1,9 +1,5 @@
 /* ===== 全站基礎設定（A 日系極簡） ===== */
 body {
-  font-family: "Noto Sans TC", sans-serif;
-}
-
-body {
   margin: 0;
   font-family: "Noto Sans TC", sans-serif;
   background: #fbfbfb;
@@ -15,7 +11,7 @@ a {
   color: inherit;
 }
 
-/* ===== Hero 設計師排版（奶茶風 + B + C） ===== */
+/* ===== Hero 設計師排版（左右留白不同） ===== */
 .hero-design {
   background: #fff7f0;
   padding: 120px 20px;
@@ -25,10 +21,12 @@ a {
                     radial-gradient(circle at 80% 80%, rgba(184, 155, 124, 0.10), transparent 55%);
 }
 
+/* 店名靠左 + 左邊留白 */
 .hero-design .hero-top {
   display: flex;
-  justify-content: flex-start; /* 店名靠左 */
+  justify-content: flex-start;
   align-items: baseline;
+  padding-left: 70px; /* 左邊留白 */
 }
 
 .hero-design h1 {
@@ -47,21 +45,22 @@ a {
   font-family: "Playfair Display", serif;
 }
 
+/* 副標靠右 + 右邊留白 */
 .hero-design .hero-mid {
   margin-top: 40px;
   text-align: right;
-  padding-right: 70px; /* 整體往右偏 */
+  padding-right: 70px; /* 右邊留白 */
 }
 
 .hero-design .subtitle {
-  font-size: 20px;
-  color: #8a7a68; /* 淡奶茶色 */
+  font-size: 20px; /* 你之前想要更大 */
+  color: #8a7a68;
   margin: 0;
 }
 
 .hero-design .subtitle2 {
-  font-size: 18px;
-  color: #8a7a68; /* 淡奶茶色 */
+  font-size: 18px; /* 你之前想要更大 */
+  color: #8a7a68;
   margin: 12px 0 0;
 }
 
@@ -75,7 +74,7 @@ a {
   border: none;
   display: block;
   margin: 44px auto 0;
-  text-align: center; /* 按鈕文字置中 */
+  text-align: center;
 }
 
 /* 主行動按鈕（LINE 預約） */
