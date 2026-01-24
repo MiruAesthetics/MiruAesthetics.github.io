@@ -1,5 +1,9 @@
 /* ===== 全站基礎設定（A 日系極簡） ===== */
 body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
   margin: 0;
   font-family: "Noto Sans TC", sans-serif;
   background: #fbfbfb;
@@ -11,7 +15,6 @@ a {
   color: inherit;
 }
 
-/* ===== Hero 設計師排版（奶茶風 + B + C） ===== */
 /* ===== Hero 設計師排版（奶茶風 + B + C） ===== */
 .hero-design {
   background: #fff7f0;
@@ -33,6 +36,7 @@ a {
   letter-spacing: 6px;
   font-weight: 500;
   margin: 0;
+  font-family: "Playfair Display", serif;
 }
 
 .hero-design .subname {
@@ -40,6 +44,7 @@ a {
   letter-spacing: 3px;
   font-weight: 300;
   color: #7a6a5b;
+  font-family: "Playfair Display", serif;
 }
 
 .hero-design .hero-mid {
