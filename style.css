@@ -1,52 +1,44 @@
 body {
   margin: 0;
   font-family: "Noto Sans TC", sans-serif;
-  background: #fbfbfb;
-  color: #2b2b2b;
-  line-height: 2;
+  background: #f3f1ee;
+  color: #1f1f1f;
 }
 
 .hero {
+  padding: 120px 20px;
   text-align: center;
-  padding: 100px 20px;
   background: #ffffff;
 }
 
 .hero h1 {
-  font-size: 34px;
-  letter-spacing: 4px;
-  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 6px;
 }
 
 .subtitle {
-  color: #9a9a9a;
-  font-size: 14px;
-  margin: 24px 0 40px;
+  font-size: 13px;
+  color: #7a7a7a;
+  margin-bottom: 48px;
 }
 
 .line-btn {
-  border: 1px solid #2b2b2b;
-  padding: 12px 36px;
+  background: #1f1f1f;
+  color: #ffffff;
+  padding: 14px 44px;
   border-radius: 999px;
   text-decoration: none;
-  color: #2b2b2b;
+  font-size: 14px;
 }
 
 .section {
-  max-width: 760px;
-  margin: 80px auto;
-  padding: 0 20px;
+  max-width: 900px;
+  margin: 90px auto;
+  padding: 0 24px;
 }
 
 .section h2 {
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 32px;
-}
-
-.service-list li {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px 0;
-  border-bottom: 1px solid #eee;
+  font-size: 22px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 12px;
 }
