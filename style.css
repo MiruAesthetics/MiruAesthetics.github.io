@@ -89,6 +89,13 @@ a {
   font-size: 14px;
 }
 
+.service-btns {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start; /* 靠左，看起來更專業 */
+  margin-top: 24px;             /* 跟服務清單留距離 */
+}
+
 /* ===== 共用內容區（A） ===== */
 .section {
   max-width: 820px;
