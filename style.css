@@ -63,6 +63,7 @@ a {
   font-size: 20px; /* 你之前想要更大 */
   color: #8a7a68;
   margin: 12px 0 0;
+  font-weight: 600;
 }
 
 .hero-design .line-btn {
