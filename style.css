@@ -49,13 +49,13 @@ a {
 }
 
 .hero-design .subtitle {
-  font-size: 16px;
+  font-size: 20px;
   color: #8a7a68; /* 淡奶茶色 */
   margin: 0;
 }
 
 .hero-design .subtitle2 {
-  font-size: 14px;
+  font-size: 18px;
   color: #8a7a68; /* 淡奶茶色 */
   margin: 12px 0 0;
 }
@@ -66,7 +66,7 @@ a {
   padding: 14px 44px;
   border-radius: 999px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   border: none;
   display: block;
   margin: 44px auto 0;
